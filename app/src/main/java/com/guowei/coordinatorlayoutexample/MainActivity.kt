@@ -15,5 +15,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SimpleActivity::class.java)
             startActivity(intent)
         }
+
+        val footerButton = findViewById<Button>(R.id.footer)
+        footerButton.setOnClickListener {
+            val intent = Intent(this, FooterBarActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
