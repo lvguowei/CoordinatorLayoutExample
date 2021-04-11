@@ -18,7 +18,8 @@
         </activity>
 
         <activity android:name=".SimpleActivity" />
-        <activity android:name=".FooterBarActivity"/>
+        <activity android:name=".FooterBarActivity" />
+        <activity android:name=".QuickerReturnActivity" />
     </application>
 
 </manifest>

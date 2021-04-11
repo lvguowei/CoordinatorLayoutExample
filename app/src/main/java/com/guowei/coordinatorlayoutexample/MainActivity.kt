@@ -21,5 +21,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, FooterBarActivity::class.java)
             startActivity(intent)
         }
+
+        val quickerButton = findViewById<Button>(R.id.quicker)
+        quickerButton.setOnClickListener {
+            val intent = Intent(this, QuickerReturnActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

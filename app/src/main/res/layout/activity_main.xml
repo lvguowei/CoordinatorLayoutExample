@@ -20,4 +20,12 @@
         android:layout_gravity="center"
         android:text="Footer Example" />
 
+    <Button
+        android:id="@+id/quicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Quicker Example" />
+
+
 </LinearLayout>
